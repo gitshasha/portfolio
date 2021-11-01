@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e7eeff;
+
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.cont {
+  height: 80vh;
+  width: 90vw;
+  margin-left: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  user-select: none;
+}
+.cont img {
+  height: 506px;
+  width: 506px;
+}
+.content {
+  height: 50vh;
+  width: 85%;
+  color: rgb(46, 43, 43);
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+.job {
+  margin-top: 0.5em;
+  font-size: 3em;
+}
+.bio {
+  text-align: start;
+  margin-top: 2em;
+  letter-spacing: 1px;
+}
+.workbut {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin-top: 1em;
+  align-self: flex-end;
+  height: 2em;
+  width: 7em;
+  border-radius: 2px;
+  border: none;
+  background: #cb7df5;
+  margin-right: auto;
+}
+.workbut:hover {
+  background-color: #ab4efc;
+}
+
+/*SVG ANIMe*/
+.svg {
+  width: 80%;
+  display: flex;
+}
+.svg a {
+  margin-left: auto;
+}
+#Polygon1,
+#Polygon2,
+#Polygon3 {
+  transition: all 0.5s ease;
+}
+#Polygon3 {
+  transform: translateX(-100%);
+}
+svg:hover #Polygon1 {
+  transform: translateX(20%);
+}
+svg:hover #Polygon2 {
+  transform: translateX(40%);
+  opacity: 0;
+}
+svg:hover #Polygon3 {
+  transform: translateX(10%);
+}

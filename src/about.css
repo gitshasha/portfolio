@@ -1,0 +1,91 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.scene {
+  height: 90vh;
+  width: 100wh;
+  background-color: rgb(148, 7, 243);
+  position: relative;
+  display: flex;
+  color: white;
+}
+.wishes {
+  display: flex;
+}
+.scene2 {
+  height: 100vh;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  top: 85vh;
+  border-radius: 1.5em;
+  border: 0.1px solid rgb(148, 7, 243);
+  left: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.box {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10vh;
+}
+.greet {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.maintit {
+  display: inline-block;
+  word-spacing: 3px;
+  margin: auto;
+  font-size: 2em;
+}
+.boxsvg {
+  margin-left: 20vh;
+}
+.head1 {
+  margin: auto;
+  font-size: 1.5em;
+  color: #7510f7;
+}
+.job1 {
+  color: black;
+  font-size: 1.7em;
+}
+.ani {
+  font-size: 3em;
+}
+.myani {
+  display: inline-block;
+  letter-spacing: 5px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
+  color: rgb(255, 158, 247); /* don't forget to set a duration! */
+}
+
+.nextsvg {
+  position: absolute;
+  top: 172vh;
+  right: -2vh;
+}
+p {
+  text-align: center;
+
+  font-size: 1em;
+}
+.des {
+  border-right: 0.1px solid violet;
+}
+
+.front {
+  border-right: 0.1px solid violet;
+  text-align: center;
+
+  font-size: 0.9em;
+}
+.hobby {
+}
