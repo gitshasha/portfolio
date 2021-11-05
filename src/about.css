@@ -49,12 +49,16 @@
 }
 .head1 {
   margin: auto;
-  font-size: 1.5em;
+  font-size: 0.9em;
+
   color: #7510f7;
+}
+.list {
+  letter-spacing: 0.05em;
 }
 .job1 {
   color: black;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 .ani {
   font-size: 3em;
@@ -74,8 +78,7 @@
 }
 p {
   text-align: center;
-
-  font-size: 1em;
+  font-size: 0.95em;
 }
 .des {
   border-right: 0.1px solid violet;
@@ -84,7 +87,9 @@ p {
 .front {
   border-right: 0.1px solid violet;
   text-align: center;
-
+}
+.hobby p,
+.des p {
   font-size: 0.9em;
 }
 .hobby {

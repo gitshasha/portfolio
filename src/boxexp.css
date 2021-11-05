@@ -1,0 +1,40 @@
+.boxer {
+  font-family: "Poppins";
+  height: 35vh;
+  width: 55vh;
+  border-radius: 20px;
+}
+.projimg img {
+  position: absolute;
+  margin: auto;
+  z-index: -1;
+  opacity: 0.5;
+  height: 35vh;
+  width: 55vh;
+  object-fit: cover;
+}
+.hov {
+  height: 35vh;
+  width: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.descp {
+  font-size: 1.1em;
+
+  color: white;
+}
+.view {
+  width: 15vh;
+  height: 5vh;
+  color: white;
+  outline: none;
+  border: 2px solid rgb(162, 29, 252);
+  background-color: rgb(27, 24, 24);
+
+  font-size: 0.9em;
+
+  border-radius: 1em;
+}

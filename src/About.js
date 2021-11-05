@@ -38,9 +38,12 @@ function About() {
             <h2 className="maintit">, I'm Shashank. Nice to meet you.</h2>
           </div>
           <p className="intro">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            nostrum voluptatem inventore. Ea sequi reprehenderit, consequuntur
-            perferendis laboriosam totam consequatur.
+            Since beginning my journey as a website developer/designer nearly 2
+            years ago, I've done quite a lot projects ,succeeded with few
+            freelancing projects and now I'm making effort in building digital
+            products for the coustmer use. I'm quietly confident, naturally
+            curious, and perpetually working on improving my chops one design
+            problem at a time
           </p>
         </div>
       </div>
@@ -74,13 +77,13 @@ function About() {
             I value simple content structure, clean design patterns and
             thoughtful interactions
           </p>
-          <h4 className="head1">Languages I know</h4>
-          <p>sdgs,dgs,gdsdgs,sgsd</p>
+          <h4 className="head1">I enjoy designing</h4>
+          <p className="list">UI,UX,Web,Mobile,Apps,Logos,Svgs</p>
           <h4 className="head1">DEvtools</h4>
-          <p>dfsgdg</p>
-          <p>dgsddgs</p>
-          <p>dgsdsg</p>
-          <p>sgdsdg</p>
+          <p>Figma</p>
+          <p>Canva</p>
+          <p>Dribble</p>
+          <p>Codepen</p>
         </div>
         <div className="front box">
           <svg
@@ -112,12 +115,13 @@ function About() {
             in the browser.
           </p>
           <h4 className="head1">Languages I know</h4>
-          <p>sdgs,dgs,gdsdgs,sgsd</p>
+          <p className="list">HTML,CSS,Javascript,React</p>
           <h4 className="head1">DEvtools</h4>
-          <p>dfsgdg</p>
-          <p>dgsddgs</p>
-          <p>dgsdsg</p>
-          <p>sgdsdg</p>
+          <p>Vscode</p>
+          <p>Github</p>
+
+          <p>Bootstrap</p>
+          <p>Dribble</p>
         </div>
         <div className="hobby box">
           <svg
@@ -146,16 +150,16 @@ function About() {
 
           <h2 className="head1 job1">Programmer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-            omnis.
+            Besides developement,I like to play with code and problem solving
+            always gets my attention.
           </p>
           <h4 className="head1">Languages I know</h4>
-          <p>sdgs,dgs,gdsdgs,sgsd</p>
-          <h4 className="head1">DEvtools</h4>
-          <p>dfsgdg</p>
-          <p>dgsddgs</p>
-          <p>dgsdsg</p>
-          <p>sgdsdg</p>
+          <p>C,Python</p>
+          <h4 className="head1">Devtools</h4>
+          <p>HackerRank</p>
+          <p>Geeksforgeeks</p>
+          <p>Codewars</p>
+          <p>Codechef</p>
         </div>
       </div>
       <div className="nextsvg">

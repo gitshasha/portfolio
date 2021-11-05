@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import image from "./ima.png";
+
 import { Link } from "react-router-dom";
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
             <p class="bio">
               Tell me who you want me to be and I'll be that. Ask me how
             </p>
-            <Link to="/about">
+            <Link to="/contact">
               <button class="workbut">Contact me</button>
             </Link>
           </div>
